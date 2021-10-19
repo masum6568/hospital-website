@@ -8,13 +8,9 @@ import { faFacebook, faGoogle, faInstagram } from '@fortawesome/free-brands-svg-
 
 const Footer = () => {
     return (
-        <div style={{
+        <div>
 
-
-
-        }}>
-
-            <footer className="footer-distributed">
+            <footer className="footer-distributed " >
 
                 <div className="footer-left">
 

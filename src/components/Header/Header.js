@@ -1,8 +1,9 @@
 import userEvent from '@testing-library/user-event';
 import React from 'react';
-import { Button, ButtonToolbar, Container, Nav, Navbar } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+import img1 from '../../../src/logo.png'
 
 
 const Header = () => {
@@ -13,6 +14,7 @@ const Header = () => {
         <>
             <Navbar sticky="top" bg="dark" variant="dark" collapseOnSelect expand="lg">
                 <Container>
+                    <img src={img1} style={{ width: '10%' }} />
                     <Navbar.Brand href="#home">National Infirmary</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">

@@ -3,63 +3,54 @@
         "id": "0",
         "title": "SPIRAL CT SCANNER",
         "img": "https://www.comfortbd.com/IST/2019/December/26th/1577374892/spiral-ct-scanner_1578728342.jpg",
-        "description": "A spiral computed tomography (CT) scan takes images using radiation. ... Spiral CT uses a faster machine that spins continuously around the body. This allows it to more quickly detect images and spot problems. It can also detect small nodules (early-stage lung disease) that cannot be clearly seen on chest x-rays.",
-        "price": "5000"
+        "sortDescription": "As a leading China manufacturer of CT Scanner, EASTIMAGE's distibutors are worldwide. There are various models available for X-ray baggage and freight scanners, learn more now!"
     },
     {
         "id": "1",
         "title": "HEMODIALYSIS",
         "img": "https://www.comfortbd.com/IST/2020/January/11th/1578728217/spiral-ct-scanner_1578728425.jpg",
-        "description": "Hemodialysis, also spelled haemodialysis, or simply dialysis, is a process of purifying the blood of a person whose kidneys are not working normally.",
-        "price": "4000"
+        "sortDescription": "Hemodialysis is a procedure where a dialysis machine and a special filter called an artificial kidney, or a dialyzer, are used to clean your blood. To get your blood into the dialyzer, the doctor needs to make an access, or entrance, into your blood vessels."
     },
     {
         "id": "2",
         "title": "DIGITAL X-RAY",
         "img": "https://www.comfortbd.com/IST/2020/January/11th/1578728587/digital-x-ray_1578728587.jpg",
-        "description": "Digital radiography is a form of radiography that uses x-ray–sensitive plates to directly capture data during the patient examination, immediately transferring it to a computer system without the use of an intermediate cassette.",
-        "price": "6000"
+        "sortDescription": "Find X Ray Machine. Unlimited Access. 100% Secure. Always Facts. Privacy Friendly. The Best Resources. Results & Answers. "
     },
     {
         "id": "3",
         "title": "OPG",
         "img": "https://www.comfortbd.com/IST/2020/January/11th/1578728742/opg_1578728742.jpg",
-        "description": "An OPG is a panoramic X-ray of the upper and lower jaws, including the teeth. The OPG unit is specifically designed to rotate around the patient's head during the scan. An OPG will take approximately 20 seconds. An OPG can be used to look for. Fractures.",
-        "price": "7000"
+        "sortDescription": "Ontario Power Generation is one of the largest, most diverse low-cost clean power generators in North America. See how we are generating a stronger."
     },
     {
         "id": "4",
         "title": "RENAL BIOPSY",
         "img": "https://www.comfortbd.com/IST/2020/January/11th/1578728823/rinal-biopsy_1578728882.jpg",
-        "description": "Renal biopsy is a medical procedure in which a small piece of kidney is removed from the body for examination, usually under a microscope. Microscopic examination of the tissue can provide information needed to diagnose, monitor or treat problems of the kidney.",
-        "price": "3000"
+        "sortDescription": "he word “renal” describes the kidneys, so a renal biopsy is also called a kidney biopsy. The test helps your doctor identify the type of kidney disease you have, how severe it is, and the best treatment for it."
     },
     {
         "id": "5",
         "title": "ECHO CARDIOGRAM",
         "img": "https://www.comfortbd.com/IST/2020/January/11th/1578728984/echo-cardiogram_1578728984.jpg",
-        "description": "An echocardiography, echocardiogram, cardiac echo or simply an echo, is an ultrasound of the heart. Echocardiography uses standard two-dimensional, three-dimensional, and Doppler ultrasound to create images of the heart.",
-        "price": "4000"
+        "sortDescription": "Used worldwide from remote hospitals to veterinary clinics to community health centres, Sonosite M-Turbo can be used for a wide range of diagnostic and procedural applications."
     },
     {
         "id": "6",
         "title": "ECG",
         "img": "https://www.comfortbd.com/IST/2020/January/11th/1578729953/ecg_1578729953.jpg",
-        "description": "Electrocardiography is the process of producing an electrocardiogram, a recording – a graph of voltage versus time – of the electrical activity of the heart using electrodes placed on the skin.",
-        "price": "5000"
+        "sortDescription": "Sensors attached to the skin are used to detect the electrical signals produced by your heart each time it beats."
     },
     {
         "id": "7",
         "title": "ULTRASONOGRAPHY",
         "img": "https://www.comfortbd.com/IST/2020/January/15th/1579068809/comfortbd_1579068809.jpg",
-        "description": "Medical ultrasound is a diagnostic imaging technique based on the application of ultrasound. It is used to create an image of internal body structures such as tendons, muscles, joints, blood vessels, and internal organs. Its aim is often to find a source of a disease or to exclude pathology.",
-        "price": "8000"
+        "sortDescription": "Elastography for the differential diagnosis of malignant versus benign testicular lesions: a meta-analysis"
     },
     {
         "id": "8",
         "title": "HORMONES",
         "img": "https://www.comfortbd.com/IST/2020/January/15th/1579078843/comfortbd_1579078843.jpg",
-        "description": "A hormone is any member of a class of signaling molecules, produced by glands in multicellular organisms, that are transported by the circulatory system to target distant organs to regulate physiology and behavior.",
-        "price": "800"
+        "sortDescription": "Hormones are chemical messengers that are secreted directly into the blood, which carries them to organs and tissues of the body to exert their functions."
     }
 ]

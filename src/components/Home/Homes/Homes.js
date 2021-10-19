@@ -12,21 +12,28 @@ const Homes = () => {
             .then(data => setTemple(data.slice(0, 6)))
     }, [])
     return (
-        <div className="container">
+        <div>
+            <h2> <b> National Infirmary <span>Bangladesh</span></b></h2>
+            <div>
+                <div className="container">
 
 
-            <Row xs={1} md={3}
-                className="g-4 mt-4 mb-4">
-                {
-                    temple.map(service => <Cards
-                        service={service}
-                    ></Cards>)
-                }
-            </Row>
-            <div className="btn">
-                <Link to="/services"> <Button>More Service</Button></Link>
+                    <Row xs={1} md={3}
+                        className="g-4 mt-4 mb-4">
+                        {
+                            temple.map(service => <Cards
+                                service={service}
+                            ></Cards>)
+                        }
+                    </Row>
+                    <div className="btn" >
+                        <Link to="/services"> <Button>More Service</Button></Link>
+                    </div>
+                </div>
+
             </div>
         </div>
+
 
     );
 };

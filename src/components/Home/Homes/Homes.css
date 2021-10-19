@@ -1,6 +1,30 @@
 .btn{
      margin-bottom: 40px;
    border-radius: 15px;
+   
+  
   
 }
+.btnn{
+  /* background-image: url("https://www.csh.ae/wp-content/uploads/2021/05/medi-tourism-bg.jpg") ;
+height: 400px;
+color: white; */
 
+}
+
+
+h2 span{
+  color:darkblue;
+
+}
+h4{
+ margin: auto;
+ width: 50%;
+padding: 100px;
+border: 1px solid gray;
+box-shadow: gray;
+background-color: white;
+color: black;
+
+
+}

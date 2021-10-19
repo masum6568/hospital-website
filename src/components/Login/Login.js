@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 import './Login.css'
@@ -7,7 +7,18 @@ import './Login.css'
 const Login = () => {
     const { signInUsingGoogle, logOut, user } = useAuth();
     const location = useLocation();
-    console.log('came from', location.state?.from);
+    const history = useHistory()
+    const redirect_uri = location.state?.from || '/home';
+
+
+
+
+    const handleGoogleLogin = () => {
+        signInUsingGoogle()
+            .then(result => {
+                history.push(redirect_uri);
+            })
+    }
     return (
         <div className="login-form">
             <div>
@@ -24,7 +35,7 @@ const Login = () => {
                     <button onClick={logOut} className="btn-regular">Log Out</button>
                     :
                     <button
-                        onClick={signInUsingGoogle}
+                        onClick={handleGoogleLogin}
                         className="btn-regular">Google Sign In</button>}
             </div>
         </div>
@@ -37,30 +48,3 @@ const Login = () => {
 export default Login;
 
 
-// import React from 'react';
-// import { Button } from 'react-bootstrap';
-// import useAuth from '../../hooks/useAuth';
-
-// import './Login.css'
-
-// const Login = () => {
-//     const { signInUsingGoogle } = useAuth()
-
-//     return (
-//         <div className="Box">
-
-
-//             <div className="box">
-//                 <h1>Login</h1>
-
-//                 <input type="text" name="" placeholder="Username" />
-
-//                 <input type="password" name="" placeholder="Password" />
-
-//                 <Button onClick={signInUsingGoogle}>Login</Button>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default Login;

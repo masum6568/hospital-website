@@ -2,9 +2,14 @@ import React from 'react';
 import { Button, Col, Form, Row } from 'react-bootstrap';
 import useAuth from '../../../hooks/useAuth';
 
+
 const Register = () => {
     const { handleRegistration, handleEmailChange, handlePasswordChange, error, user, logOut, password } = useAuth()
     return (
+
+
+
+
         <div className="mx-5 mt-3 pt-4">
             <Form onSubmit={handleRegistration}>
                 <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail" onChange={handleEmailChange} >
