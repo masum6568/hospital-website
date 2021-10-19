@@ -1,0 +1,130 @@
+/* . {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .btn-google {
+    color: white !important;
+    background-color: #ea4335;
+  }
+  
+  .btn-facebook {
+    color: white !important;
+    background-color: #3b5998;
+  } */
+
+
+
+  .login-form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 30px;
+   
+}
+.btn-regular{
+    background-color: rgb(45, 48, 47);
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+    color: white;
+}
+/* .Box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+
+    width: 300px;
+  
+    padding: 40px;
+
+    top: 50%;
+  
+    left: 50%;
+
+    background: #191919;
+  
+    text-align: center;
+  
+  }
+  
+  .box h1{
+  
+    color: white;
+  
+    text-transform: uppercase;
+  
+    font-weight: 500;
+  
+  }
+  
+  .box input[type = "text"],.box input[type = "password"]{
+  
+    border:0;
+  
+    background: none;
+  
+    display: block;
+  
+    margin: 20px auto;
+  
+    text-align: center;
+  
+    border: 2px solid #3498db;
+  
+    padding: 14px 10px;
+  
+    width: 200px;
+  
+    outline: none;
+  
+    color: white;
+  
+    border-radius: 24px;
+  
+    transition: 0.25s;
+  
+  }
+  
+  .box input[type = "submit"]{
+  
+    border:0;
+  
+    background: none;
+  
+    display: block;
+  
+    margin: 20px auto;
+  
+    text-align: center;
+  
+    border: 2px solid #2ecc71;
+  
+    padding: 14px 40px;
+  
+    outline: none;
+  
+    color: white;
+  
+    border-radius: 24px;
+  
+    transition: 0.25s;
+  
+    cursor: pointer;
+  
+  }
+  
+  .box input[type = "submit"]:hover{
+  
+    background: #2ecc71;
+  
+  } */
