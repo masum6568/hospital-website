@@ -6,10 +6,6 @@ import useAuth from '../../../hooks/useAuth';
 const Register = () => {
     const { handleRegistration, handleEmailChange, handlePasswordChange, error, user, logOut, password } = useAuth()
     return (
-
-
-
-
         <div className="mx-5 mt-3 pt-4">
             <Form onSubmit={handleRegistration}>
                 <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail" onChange={handleEmailChange} >
@@ -39,7 +35,7 @@ const Register = () => {
                 <Form.Group as={Row} className="mb-3">
                     <Col sm={{ span: 10, offset: 2 }}>
                         <div className="row mb-3 text-danger">{error}</div>
-                        {user.password ? <Button type="submit">Sign Out</Button> :
+                        {user.email ? <Button type="submit">Sign Out</Button> :
                             <Button type="submit">Sign in</Button>}
                     </Col>
                 </Form.Group>

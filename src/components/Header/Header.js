@@ -7,7 +7,7 @@ import img1 from '../../../src/logo.png'
 
 
 const Header = () => {
-    const { user } = useAuth();
+    const { user, logOut } = useAuth();
     return (
 
 
@@ -25,12 +25,15 @@ const Header = () => {
 
 
 
+                        {user.email ? <button onClick={logOut}>logOut</button>
+                            :
 
-                        <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                            <Nav.Link as={Link} to="/login">Login</Nav.Link>}
 
 
 
                         <Navbar.Text>Signed in as: <a href="#login">{user.displayName}</a></Navbar.Text>
+
                     </Navbar.Collapse>
                 </Container>
             </Navbar >
