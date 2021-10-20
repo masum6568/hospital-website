@@ -11,7 +11,7 @@ const Cards = ({ service }) => {
         <div>
             <Col>
                 <Card>
-                    <Card.Img variant="top" src={img} style={{ width: '100%' }} />
+                    <Card.Img variant="top" src={img} style={{ width: '100%', height: "400px" }} />
                     <Card.Body>
 
                         <Card.Title>Name: {title}</Card.Title>

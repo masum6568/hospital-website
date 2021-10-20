@@ -20,6 +20,7 @@ const SingleServices = () => {
             <p>You wouldn't go to a hospital, you wouldn't go to a law firm where the doctors and lawyers were not retained on merit: where they all had tenure regardless of competence. Parents feel the same way about schools that they send their children to.</p>
             <br />
             <br />
+            <br />
             <div className="card mb-3" style={{ mazWidth: "100%" }}>
                 <div className="row g-0">
                     <div className="col-md-4 ">
@@ -39,6 +40,7 @@ const SingleServices = () => {
 
             </div>
             <FontAwesomeIcon className="icon" icon={faClinicMedical} size='3x' />
+
         </div>
     );
 };
