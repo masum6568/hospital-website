@@ -13,7 +13,7 @@ const Homes = () => {
     }, [])
     return (
         <div>
-            <h2> <b> National Infirmary <span>Bangladesh</span></b></h2>
+            <h2> <b> Educational Teach <span>Bangladesh</span></b></h2>
             <div>
                 <div className="container">
 

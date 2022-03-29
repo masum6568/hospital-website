@@ -1,9 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAbZHq7thhlFNCV3J0lvZssINmIiyth7Gw",
-    authDomain: "hospital-website-35ae6.firebaseapp.com",
-    projectId: "hospital-website-35ae6",
-    storageBucket: "hospital-website-35ae6.appspot.com",
-    messagingSenderId: "88291602134",
-    appId: "1:88291602134:web:e7a4b45d58c22966c42377"
+    apiKey: "AIzaSyDNshLmtN81QVfhdcBKPLe5DC6ub_4ZGDw",
+    authDomain: "educational-teach.firebaseapp.com",
+    projectId: "educational-teach",
+    storageBucket: "educational-teach.appspot.com",
+    messagingSenderId: "730795694098",
+    appId: "1:730795694098:web:669f4cbde2e00a6b2360cb"
 };
 export default firebaseConfig;

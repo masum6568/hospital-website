@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 const Cards = ({ service }) => {
-    const { id, img, title, sortDescription } = service;
+    const { img, title, sortDescription } = service;
 
     return (
 
@@ -14,12 +14,12 @@ const Cards = ({ service }) => {
                     <Card.Img variant="top" src={img} style={{ width: '100%', height: "400px" }} />
                     <Card.Body>
 
-                        <Card.Title>Name: {title}</Card.Title>
+                        <Card.Title>Some Special Book Name: {title}</Card.Title>
                         {/* <p>Description:{description}</p> */}
-                        <p>Volume: <small>{sortDescription.slice(0, 150)}</small></p>
-                        <Link to={`/service/${service?.id}`}>
-                            <button className="bg-primary rounded-3 text-white " > Details</button>
-                        </Link>
+                        <p>Description: <small>{sortDescription.slice(0, 150)}</small></p>
+
+                        <button className="bg-info rounded-3 text-white " > More Info</button>
+
                     </Card.Body>
                 </Card>
             </Col>

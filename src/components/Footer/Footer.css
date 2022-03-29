@@ -8,7 +8,7 @@ section {
   
   width: 100%;
   display: inline-block;
-  background: #333;
+  background: darkblue;
   height: 50vh;
   text-align: center;
   font-size: 22px;
@@ -16,9 +16,14 @@ section {
   text-decoration: underline;
 
 }
+h5{
+  display: flex;
+  padding-left: 38%;
+  color: white;
+}
  
 .footer-distributed {
-  background: black;
+  background: darkblue;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -72,7 +77,7 @@ section {
 }
  
 .footer-distributed .footer-company-name {
-  color: #222;
+  color: white;
   font-size: 14px;
   font-weight: normal;
   margin: 0;

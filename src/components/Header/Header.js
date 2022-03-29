@@ -1,9 +1,9 @@
 import userEvent from '@testing-library/user-event';
 import React from 'react';
-import { Button, Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
-import img1 from '../../../src/logo.png'
+import img1 from '../../../src/logo.jpg'
 
 
 
@@ -13,10 +13,12 @@ const Header = () => {
 
 
         <>
-            <Navbar sticky="top" bg="dark" variant="dark" collapseOnSelect expand="lg">
+            <Navbar sticky="top" bg="white" variant="white" collapseOnSelect expand="lg">
                 <Container>
-                    <img src={img1} style={{ width: '10%' }} />
-                    <Navbar.Brand href="#home">National Infirmary</Navbar.Brand>
+                    <img src={img1} style={{ width: '3%' }} />
+
+                    <Navbar.Brand href="#home">Educational Teach</Navbar.Brand>
+
                     <Navbar.Toggle />
 
                     <Navbar.Collapse className="justify-content-end">
@@ -24,12 +26,12 @@ const Header = () => {
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
                         <Nav.Link as={Link} to="/services">Service</Nav.Link>
-                        <Nav.Link as={Link} to="/equipment">Equipment</Nav.Link>
+
 
 
 
                         {user.email ? <button
-                            className="btn-warning rounded-3  text-primary m-4"
+                            className="btn-primary rounded-3  text-white m-4"
 
                             onClick={logOut}>logOut</button>
 
